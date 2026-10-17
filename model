@@ -1,0 +1,253 @@
+"""
+Explainable Health Risk Assessment - ONE script
+  clean -> derive Health Risk Score (transparent points system) -> preprocess
+  -> train classifier (Low/Moderate/High) + regressor (0-100 score)
+  -> evaluate -> SHAP explanations -> save -> predict for a new patient
+
+Run:      python health_risk_final.py
+Install:  pip install pandas numpy scikit-learn xgboost shap joblib
+Needs healthcare_real_time_dataset.csv in the same folder (or change CSV_PATH).
+
+IMPORTANT (state this in your report):
+  The dataset's original 'Health Risk Level' column is statistically unrelated to its features
+  (~chance accuracy), so it is NOT used as the ML target. The target here is a rule-based
+  Health Risk Score built from widely used risk-factor cut-offs (WHO BMI classes, WHO physical
+  activity guidance, common alcohol/sleep guidance, smoking, chronic disease, age, stress).
+  It is a transparent SCREENING score, not a clinically validated diagnostic tool, and the
+  ML models learn to reproduce/generalise it - high accuracy therefore reflects how learnable
+  the scoring rules are, not clinical prediction of real outcomes.
+"""
+import os
+import warnings
+import json
+import joblib
+import numpy as np
+import pandas as pd
+try:
+    import shap
+except ImportError:
+    shap = None
+from sklearn.compose import ColumnTransformer
+from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor, VotingClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import (accuracy_score, classification_report, confusion_matrix,
+                             f1_score, mean_absolute_error, r2_score)
+from sklearn.model_selection import KFold, StratifiedKFold, cross_val_score, train_test_split
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
+from xgboost import XGBClassifier, XGBRegressor
+
+warnings.filterwarnings("ignore")
+CSV_PATH = "healthcare_real_time_dataset.csv"
+OUT_DIR = "outputs"
+SEED = 42
+os.makedirs(OUT_DIR, exist_ok=True)
+
+NUM = ["Age", "BMI", "Alcohol_per_week", "Activity_hours_week", "Sleep_hours_day", "Stress_level"]
+CAT = ["Gender", "Smoking_status", "Chronic_disease"]
+FEATURES = NUM + CAT
+
+#  1. LOAD + CLEAN
+df = pd.read_csv(CSV_PATH, keep_default_na=False)      # keep "None" as a real category
+print(f"Loaded: {df.shape[0]} rows x {df.shape[1]} columns")
+df = df.rename(columns={
+    "Alcohol Consumption (per week)": "Alcohol_per_week",
+    "Physical Activity (hours/week)": "Activity_hours_week",
+    "Sleep Duration (hours/day)": "Sleep_hours_day",
+    "Stress Level (1-10)": "Stress_level",
+    "Smoking Status": "Smoking_status",
+    "Chronic Disease History": "Chronic_disease",
+    "Health Risk Level": "Original_label",
+})
+required_columns = NUM + CAT + ["Original_label"]
+missing_columns = sorted(set(required_columns) - set(df.columns))
+if missing_columns:
+    raise ValueError(f"Missing required columns: {', '.join(missing_columns)}")
+for c in CAT + ["Original_label"]:
+    df[c] = df[c].astype(str).str.strip().str.title()
+df = df.replace({"": np.nan, "Nan": np.nan})
+for c in NUM:
+    df[c] = pd.to_numeric(df[c], errors="coerce")
+    df[c] = df[c].fillna(df[c].median())
+for c in CAT:
+    df[c] = df[c].fillna(df[c].mode()[0])
+df = df.drop_duplicates().reset_index(drop=True)
+limits = {"Age": (0, 120), "BMI": (10, 70), "Alcohol_per_week": (0, 100),
+          "Activity_hours_week": (0, 100), "Sleep_hours_day": (0, 24), "Stress_level": (1, 10)}
+for c, (lo, hi) in limits.items():
+    df = df[df[c].between(lo, hi)]
+df = df.reset_index(drop=True)
+if df.empty:
+    raise ValueError("No valid rows remain after cleaning the input data.")
+print(f"After cleaning: {df.shape}")
+
+
+#  2. HEALTH RISK SCORE (0-100)
+def risk_points(r):
+    """Transparent additive points system. Returns (total, per-factor dict)."""
+    p = {}
+    a = r["Age"]
+    p["Age"] = 0 if a < 40 else 5 if a < 55 else 10 if a < 65 else 15
+    b = r["BMI"]
+    p["BMI"] = 5 if b < 18.5 else 0 if b < 25 else 5 if b < 30 else 10 if b < 35 else 15
+    p["Smoking_status"] = {"Never": 0, "Former": 5, "Current": 15}[r["Smoking_status"]]
+    al = r["Alcohol_per_week"]
+    p["Alcohol_per_week"] = 0 if al <= 7 else 5 if al <= 14 else 10
+    ac = r["Activity_hours_week"]
+    p["Activity_hours_week"] = 0 if ac >= 2.5 else 5 if ac >= 1 else 10
+    sl = r["Sleep_hours_day"]
+    p["Sleep_hours_day"] = 0 if 7 <= sl <= 9 else 5 if (6 <= sl < 7 or 9 < sl <= 10) else 10
+    st = r["Stress_level"]
+    p["Stress_level"] = 0 if st <= 3 else 5 if st <= 6 else 10
+    p["Chronic_disease"] = {"None": 0, "Hypertension": 10, "Diabetes": 12, "Heart Disease": 15}[r["Chronic_disease"]]
+    return sum(p.values()), p
+
+
+LOW_MAX, MOD_MAX = 34, 49          # Low: <35 | Moderate: 35-49 | High: >=50 (fixed cut-offs)
+
+
+def score_to_level(s):
+    return "Low" if s <= LOW_MAX else "Moderate" if s <= MOD_MAX else "High"
+
+
+df["Risk_score"] = df.apply(lambda r: risk_points(r)[0], axis=1)
+df["Risk_level"] = df["Risk_score"].apply(score_to_level)
+print("\nDerived Risk_level distribution:")
+print(df["Risk_level"].value_counts().to_string())
+
+# Evidence for your report: the ORIGINAL label vs. features / derived label
+agree = (df["Original_label"] == df["Risk_level"]).mean()
+print(f"\nAgreement between original label and derived level: {agree:.3f} (chance is ~0.33)")
+df.to_csv(f"{OUT_DIR}/cleaned_with_risk_score.csv", index=False)
+
+#  3. SPLIT
+X = df[FEATURES]
+le = LabelEncoder()
+y_cls = le.fit_transform(df["Risk_level"])       # High=0, Low=1, Moderate=2
+y_reg = df["Risk_score"].values
+X_tr, X_te, yc_tr, yc_te, yr_tr, yr_te = train_test_split(
+    X, y_cls, y_reg, test_size=0.2, stratify=y_cls, random_state=SEED)
+print(f"\nTrain: {X_tr.shape}  Test: {X_te.shape}")
+
+
+def make_pre():
+    return ColumnTransformer(
+        [("num", StandardScaler(), NUM), ("cat", OneHotEncoder(handle_unknown="ignore"), CAT)],
+        verbose_feature_names_out=False)
+
+
+#  4. CLASSIFICATION (Low/Moderate/High)
+lr = LogisticRegression(max_iter=3000, random_state=SEED)
+rf = RandomForestClassifier(n_estimators=300, random_state=SEED, n_jobs=-1)
+xgb = XGBClassifier(n_estimators=300, max_depth=4, learning_rate=0.05, subsample=0.9,
+                    colsample_bytree=0.9, objective="multi:softprob", eval_metric="mlogloss",
+                    random_state=SEED, n_jobs=-1)
+ens = VotingClassifier([("lr", lr), ("rf", rf), ("xgb", xgb)], voting="soft", weights=[1, 1, 2])
+clf_pipes = {n: Pipeline([("pre", make_pre()), ("clf", m)]) for n, m in
+             {"Logistic Regression": lr, "Random Forest": rf,
+              "XGBoost": xgb, "Weighted Ensemble": ens}.items()}
+
+cv = StratifiedKFold(5, shuffle=True, random_state=SEED)
+print(f"Majority-class baseline (test): {np.bincount(yc_te).max() / len(yc_te):.3f}\n")
+rows = []
+for name, pipe in clf_pipes.items():
+    cv_acc = cross_val_score(pipe, X_tr, yc_tr, cv=cv, scoring="accuracy").mean()
+    cv_f1 = cross_val_score(pipe, X_tr, yc_tr, cv=cv, scoring="f1_macro").mean()
+    pipe.fit(X_tr, yc_tr)
+    pr = pipe.predict(X_te)
+    rows.append({"Model": name, "CV Acc": round(cv_acc, 3), "CV Macro-F1": round(cv_f1, 3),
+                 "Test Acc": round(accuracy_score(yc_te, pr), 3),
+                 "Test Macro-F1": round(f1_score(yc_te, pr, average="macro"), 3)})
+res = pd.DataFrame(rows).set_index("Model")
+print("CLASSIFICATION RESULTS")
+print(res, "\n")
+res.to_csv(f"{OUT_DIR}/classification_results.csv")
+
+best_name = res["CV Macro-F1"].idxmax()
+best_clf = clf_pipes[best_name]
+pr = best_clf.predict(X_te)
+print(f"=== Best classifier: {best_name} ===")
+print(classification_report(yc_te, pr, target_names=le.classes_))
+print("Confusion matrix (rows = true, cols = predicted):")
+print(pd.DataFrame(confusion_matrix(yc_te, pr), index=le.classes_, columns=le.classes_))
+
+#  5. REGRESSION (0-100 score) + SHAP model
+reg_pipes = {
+    "Random Forest": Pipeline([("pre", make_pre()),
+                               ("reg", RandomForestRegressor(300, random_state=SEED, n_jobs=-1))]),
+    "XGBoost": Pipeline([("pre", make_pre()),
+                         ("reg", XGBRegressor(n_estimators=400, max_depth=4, learning_rate=0.05,
+                                              subsample=0.9, colsample_bytree=0.9,
+                                              random_state=SEED, n_jobs=-1))]),
+}
+print("\nREGRESSION RESULTS (risk score 0-100)")
+rr = []
+reg_cv = KFold(5, shuffle=True, random_state=SEED)
+for name, pipe in reg_pipes.items():
+    cv_mae = -cross_val_score(pipe, X_tr, yr_tr, cv=reg_cv,
+                               scoring="neg_mean_absolute_error").mean()
+    pipe.fit(X_tr, yr_tr)
+    p = pipe.predict(X_te)
+    rr.append({"Model": name, "CV MAE (points)": round(cv_mae, 2),
+               "R2": round(r2_score(yr_te, p), 3),
+               "MAE (points)": round(mean_absolute_error(yr_te, p), 2)})
+rr = pd.DataFrame(rr).set_index("Model")
+print(rr)
+rr.to_csv(f"{OUT_DIR}/regression_results.csv")
+best_reg_name = rr["CV MAE (points)"].idxmin()
+best_reg = reg_pipes[best_reg_name]
+print(f"Best regressor: {best_reg_name}")
+
+#  6. SAVE
+joblib.dump({"classifier": best_clf, "regressor": best_reg, "label_encoder": le,
+             "classifier_name": best_name, "regressor_name": best_reg_name,
+             "features": FEATURES, "num": NUM, "cat": CAT},
+            f"{OUT_DIR}/health_risk_model.joblib")
+print(f"\nSaved -> {OUT_DIR}/health_risk_model.joblib")
+
+
+#  7. PREDICT + EXPLAIN (RAG / LLM input)
+def predict_risk(patient: dict, path=f"{OUT_DIR}/health_risk_model.joblib", top_k=5):
+    b = joblib.load(path)
+    missing = sorted(set(b["features"]) - set(patient))
+    if missing:
+        raise ValueError(f"Patient is missing required fields: {', '.join(missing)}")
+    row = pd.DataFrame([patient])[b["features"]]
+    proba = b["classifier"].predict_proba(row)[0]
+    classes = b["label_encoder"].classes_
+    score = float(b["regressor"].predict(row)[0])
+
+    pre, reg = b["regressor"].named_steps["pre"], b["regressor"].named_steps["reg"]
+    Xt = pre.transform(row)
+    names = pre.get_feature_names_out()
+    try:
+        if shap is None:
+            raise ImportError("SHAP is not installed")
+        shap_values = shap.TreeExplainer(reg).shap_values(Xt)
+        if isinstance(shap_values, list):
+            shap_values = np.asarray(shap_values).mean(axis=0)
+        contrib = np.asarray(shap_values)[0]
+    except (ImportError, RuntimeError, TypeError, ValueError):
+        # Keep prediction available when optional SHAP dependencies are absent.
+        contrib = np.asarray(Xt)[0] * reg.feature_importances_
+    grouped = {}                                    # merge one-hot columns back to original feature
+    for n, v in zip(names, contrib):
+        base = next((c for c in b["cat"] if n.startswith(c + "_")), n)
+        grouped[base] = grouped.get(base, 0.0) + float(v)
+    factors = sorted(grouped.items(), key=lambda kv: -abs(kv[1]))[:top_k]
+    return {
+        "risk_level": classes[proba.argmax()],
+        "risk_score_0_100": round(score, 1),
+        "probabilities": {c: round(float(p), 3) for c, p in zip(classes, proba)},
+        "top_factors": [{"factor": f, "value": patient[f],
+                         "effect": "raises risk" if v > 0 else "lowers risk",
+                         "shap_points": round(v, 2)} for f, v in factors],
+    }
+
+
+example = {"Age": 6, "Gender": "Male", "BMI": 27.09, "Smoking_status": "Never",
+           "Alcohol_per_week": 0, "Activity_hours_week": 2, "Sleep_hours_day": 10,
+           "Chronic_disease": "Diabetes", "Stress_level": 0}
+print("\nExample patient ->")
+print(json.dumps(predict_risk(example), indent=2, default=str))
+print("Rule-based score for same patient:", risk_points(example)[0])

@@ -1,0 +1,1001 @@
+Age,Gender,BMI,Smoking Status,Alcohol Consumption (per week),Physical Activity (hours/week),Sleep Duration (hours/day),Chronic Disease History,Stress Level (1-10),Health Risk Level
+56,Other,23.15,Never,1,0.1,4.9,Heart Disease,5,High
+69,Male,20.83,Former,3,9.8,7.2,None,8,Moderate
+46,Female,21.55,Never,0,9.7,5.4,Hypertension,7,Low
+32,Other,27.47,Former,18,4.0,4.8,Hypertension,8,Low
+60,Male,27.09,Current,9,7.3,5.9,Diabetes,8,High
+25,Female,27.0,Current,14,3.5,8.8,Diabetes,6,Moderate
+78,Other,23.87,Current,18,6.7,8.4,Diabetes,10,Moderate
+38,Other,25.02,Never,15,8.1,7.4,Diabetes,2,Low
+56,Male,29.09,Former,3,9.5,4.7,Hypertension,6,High
+75,Male,17.55,Current,1,4.0,6.7,Heart Disease,1,Low
+36,Male,25.12,Former,12,7.8,7.5,Heart Disease,1,Low
+40,Female,25.45,Former,0,2.7,7.3,Heart Disease,3,Low
+28,Male,28.77,Current,16,9.9,4.2,None,3,Low
+28,Other,18.25,Current,12,0.3,5.7,Diabetes,5,High
+41,Other,32.48,Former,3,6.0,6.9,Diabetes,1,Moderate
+70,Male,26.07,Current,6,6.6,7.8,Hypertension,10,Low
+53,Male,26.33,Former,16,6.9,3.7,Hypertension,6,Low
+57,Other,22.99,Former,8,1.2,6.8,None,7,Low
+41,Female,27.69,Current,3,9.4,7.2,None,10,Low
+20,Male,25.24,Never,18,1.8,8.3,Heart Disease,3,Moderate
+39,Male,31.04,Current,0,6.2,8.0,Hypertension,4,Moderate
+70,Other,17.79,Never,9,2.2,7.9,Diabetes,10,Moderate
+19,Male,25.88,Former,3,3.1,5.8,Heart Disease,10,Moderate
+41,Female,27.04,Former,8,5.5,4.1,Diabetes,10,Low
+61,Other,24.07,Never,12,4.2,6.4,Heart Disease,10,High
+47,Male,22.98,Former,13,1.6,8.5,Diabetes,10,Moderate
+55,Other,23.19,Never,9,1.7,9.1,None,3,Moderate
+19,Male,25.87,Never,5,4.2,8.1,Heart Disease,1,Low
+77,Male,15.95,Former,15,7.6,7.6,Diabetes,8,Low
+38,Male,29.83,Never,5,9.0,7.6,Diabetes,10,Low
+50,Female,22.6,Current,16,0.8,6.2,Hypertension,10,Low
+29,Female,25.64,Current,9,3.9,6.8,Heart Disease,2,High
+75,Other,26.84,Former,17,1.0,9.5,Diabetes,1,High
+39,Male,22.37,Former,17,0.2,5.6,Hypertension,8,Moderate
+78,Male,24.34,Never,2,6.6,9.4,Diabetes,7,High
+61,Female,14.82,Never,19,6.0,6.5,Heart Disease,7,Moderate
+42,Male,28.66,Never,14,1.6,9.0,None,4,Moderate
+66,Female,30.4,Never,14,2.3,4.9,Heart Disease,9,High
+44,Male,16.5,Current,3,0.2,7.9,Heart Disease,6,Moderate
+76,Other,22.97,Current,8,8.3,5.9,Diabetes,2,Low
+59,Male,18.85,Former,18,9.7,4.9,Diabetes,1,Moderate
+45,Male,24.11,Never,16,1.4,7.3,Heart Disease,1,Low
+77,Female,28.24,Never,10,2.3,8.5,Hypertension,9,High
+33,Male,29.94,Former,8,8.7,5.7,Hypertension,4,High
+32,Male,30.61,Never,9,9.3,4.8,Hypertension,5,Moderate
+79,Female,31.55,Never,17,4.2,6.9,Diabetes,3,Low
+79,Other,23.89,Never,19,0.5,6.9,Diabetes,4,Moderate
+64,Other,19.27,Never,12,0.4,7.8,Heart Disease,8,High
+79,Female,24.43,Never,7,5.7,8.4,None,4,Moderate
+68,Female,28.17,Former,6,3.9,6.9,Diabetes,9,Moderate
+61,Female,18.86,Never,16,0.3,9.8,Heart Disease,9,Low
+72,Female,33.3,Former,14,5.8,7.3,Heart Disease,6,High
+69,Female,29.49,Never,19,0.1,6.5,None,2,Moderate
+74,Other,23.97,Current,14,7.9,4.6,Hypertension,10,Low
+20,Other,21.45,Current,0,3.1,6.6,Heart Disease,7,Moderate
+54,Female,21.65,Current,13,0.4,6.5,Heart Disease,9,Low
+68,Male,25.37,Current,4,5.9,8.4,Heart Disease,6,Low
+24,Female,23.85,Former,10,4.0,7.7,Hypertension,3,Moderate
+38,Male,29.75,Former,15,9.7,5.2,Hypertension,7,High
+26,Female,23.29,Never,1,5.4,7.3,None,5,High
+56,Female,27.53,Current,7,2.8,8.0,Diabetes,1,Low
+35,Other,24.86,Former,10,7.1,9.3,Hypertension,3,High
+21,Male,26.35,Never,17,2.7,8.3,Diabetes,5,Low
+42,Male,23.85,Never,2,9.0,8.1,Diabetes,7,High
+77,Other,28.54,Former,0,3.7,7.1,Hypertension,3,Moderate
+31,Other,28.61,Current,10,5.5,7.6,Heart Disease,6,High
+67,Other,27.3,Never,15,0.5,8.9,None,5,Low
+75,Other,28.04,Current,17,4.3,5.0,Diabetes,1,Low
+26,Male,20.28,Current,15,8.3,6.5,Heart Disease,10,High
+43,Male,26.62,Current,9,8.1,5.8,Hypertension,6,Moderate
+70,Female,31.25,Never,17,2.2,7.6,Diabetes,8,Low
+19,Female,27.46,Current,5,2.3,8.8,Diabetes,1,Low
+37,Other,19.85,Never,18,8.2,6.1,Diabetes,2,Low
+45,Other,24.75,Current,3,9.3,3.4,Heart Disease,4,Low
+64,Other,26.87,Never,12,1.0,6.4,Heart Disease,2,Low
+77,Female,21.21,Current,13,4.5,8.4,Heart Disease,9,Moderate
+24,Female,18.21,Former,2,3.4,7.8,Diabetes,10,High
+61,Female,23.42,Current,9,8.7,7.6,Diabetes,8,Moderate
+78,Female,21.3,Current,5,0.8,6.6,None,8,Moderate
+25,Female,24.93,Never,0,2.1,5.1,None,4,Low
+64,Female,17.04,Never,13,7.5,7.8,Heart Disease,5,Moderate
+52,Female,27.82,Current,7,0.5,5.7,Heart Disease,4,Low
+31,Other,21.83,Former,18,4.9,10.3,Hypertension,9,Moderate
+34,Other,29.98,Former,13,4.4,7.9,Heart Disease,2,Low
+53,Other,23.62,Never,9,3.3,6.1,None,8,Low
+67,Other,24.87,Former,16,3.9,6.1,None,2,Moderate
+57,Female,24.13,Current,8,5.3,6.9,None,1,Moderate
+21,Male,21.56,Never,5,1.6,6.6,Diabetes,10,High
+19,Female,37.36,Current,10,5.7,8.7,Diabetes,3,High
+79,Male,22.52,Never,6,8.1,7.3,Heart Disease,9,High
+23,Other,30.12,Never,16,7.6,5.9,Hypertension,3,Moderate
+71,Female,19.53,Never,0,1.5,9.8,Hypertension,9,Moderate
+59,Other,26.86,Never,4,1.5,7.1,Hypertension,7,Low
+21,Female,27.39,Former,8,2.7,8.2,Diabetes,10,High
+71,Other,24.88,Current,17,3.6,6.1,None,1,Low
+46,Male,22.14,Current,1,4.1,7.5,None,10,Low
+35,Male,23.68,Current,10,6.8,7.5,Diabetes,5,Low
+43,Male,22.98,Never,5,0.6,4.2,Hypertension,9,Low
+61,Female,37.01,Former,7,0.3,10.0,Hypertension,3,High
+51,Male,24.89,Current,3,3.9,8.9,Heart Disease,9,Low
+27,Female,27.62,Former,17,7.0,6.4,Heart Disease,5,Moderate
+79,Male,33.91,Never,10,1.9,5.3,Hypertension,9,Moderate
+53,Male,20.62,Current,4,6.4,7.5,Diabetes,10,Moderate
+31,Female,25.19,Former,14,2.6,7.1,Hypertension,6,High
+48,Female,23.65,Never,17,8.9,7.5,Heart Disease,9,Low
+65,Male,24.57,Former,1,9.0,7.3,Hypertension,7,High
+32,Female,24.1,Current,10,3.0,7.8,Diabetes,7,Low
+25,Male,21.34,Current,12,2.3,9.2,None,8,High
+31,Female,25.98,Never,3,4.1,7.9,Diabetes,7,High
+40,Other,19.69,Never,6,2.4,5.4,Diabetes,9,Low
+77,Other,29.94,Never,10,6.7,9.0,Heart Disease,9,High
+74,Other,28.12,Former,3,8.3,9.5,Diabetes,6,Low
+79,Other,22.53,Former,14,6.7,11.7,Diabetes,7,Moderate
+57,Other,22.78,Former,0,8.2,5.3,Heart Disease,2,Moderate
+38,Male,26.38,Never,2,4.0,7.4,Heart Disease,9,Moderate
+33,Other,21.01,Current,13,1.6,3.9,None,1,High
+62,Other,34.06,Current,5,7.4,7.8,Hypertension,1,Moderate
+35,Other,26.79,Former,17,3.6,6.2,Diabetes,3,Low
+64,Other,26.97,Former,0,6.7,9.9,Heart Disease,6,Moderate
+70,Female,28.41,Current,5,2.7,5.8,None,5,Moderate
+41,Male,22.1,Current,5,0.8,4.5,Hypertension,2,High
+43,Other,30.45,Former,15,9.9,6.3,Heart Disease,9,Low
+42,Other,25.57,Former,4,1.6,4.0,Hypertension,10,High
+77,Other,29.75,Current,16,9.9,8.1,Hypertension,4,High
+77,Male,24.01,Never,9,9.8,3.9,Diabetes,4,Low
+77,Female,31.59,Former,17,7.9,7.0,Diabetes,5,High
+62,Male,27.01,Current,6,6.6,3.9,Heart Disease,8,Low
+58,Female,35.91,Current,2,5.8,6.5,Hypertension,10,Moderate
+46,Other,23.15,Current,12,8.7,9.5,Heart Disease,4,Low
+32,Other,26.02,Current,14,2.9,7.5,Heart Disease,5,Low
+62,Male,19.84,Never,19,4.7,5.7,Hypertension,4,Low
+18,Male,22.35,Current,18,6.2,7.0,Heart Disease,6,High
+42,Female,28.09,Former,2,4.1,7.0,Hypertension,3,Low
+24,Female,30.65,Never,3,4.3,7.7,Hypertension,8,Low
+26,Male,39.83,Current,4,3.3,4.9,Hypertension,6,Low
+41,Female,24.52,Never,0,5.6,7.9,Hypertension,10,Moderate
+18,Male,20.33,Former,3,8.5,2.9,None,5,Low
+61,Female,28.77,Current,11,2.0,6.1,Hypertension,2,High
+25,Male,19.36,Former,9,9.3,6.3,Diabetes,10,Low
+41,Male,27.82,Current,19,6.9,7.9,Diabetes,10,Low
+28,Male,22.49,Current,12,8.2,7.0,Diabetes,7,Moderate
+68,Female,26.06,Current,13,5.6,4.9,Hypertension,2,Low
+34,Female,30.46,Current,4,7.8,5.5,Diabetes,1,High
+25,Female,24.45,Current,3,0.2,7.3,None,7,Low
+52,Male,29.66,Never,13,8.2,6.9,Heart Disease,5,High
+52,Female,29.37,Current,9,0.4,6.1,Hypertension,1,Moderate
+50,Female,15.68,Current,16,8.9,6.3,Diabetes,4,Low
+76,Male,20.49,Never,9,9.9,8.0,None,4,Moderate
+22,Other,17.19,Never,6,2.9,6.2,Heart Disease,10,Low
+59,Male,35.01,Never,15,2.1,6.9,None,7,High
+56,Female,24.47,Never,0,7.7,10.3,Diabetes,9,Moderate
+75,Male,33.9,Never,16,2.5,4.9,None,2,Low
+58,Other,16.84,Never,8,8.7,4.2,Heart Disease,1,High
+45,Male,22.14,Current,5,1.0,8.2,Diabetes,2,Moderate
+24,Female,29.0,Current,18,1.3,6.0,Heart Disease,7,Low
+26,Other,25.9,Former,12,9.8,6.5,None,10,Moderate
+25,Female,27.66,Current,2,6.7,5.8,Hypertension,6,Low
+29,Other,18.73,Current,6,8.5,6.6,Hypertension,4,High
+51,Other,31.88,Never,8,3.2,9.4,Hypertension,1,High
+50,Male,28.89,Never,4,6.8,8.2,Hypertension,1,Moderate
+65,Male,27.01,Current,9,5.9,8.3,Heart Disease,5,Moderate
+72,Female,21.57,Former,16,6.0,4.9,Hypertension,1,Low
+40,Male,26.62,Never,11,6.8,5.3,Heart Disease,7,High
+79,Male,23.54,Current,15,5.8,2.7,Diabetes,1,Low
+41,Other,16.75,Current,2,4.3,5.8,Hypertension,1,High
+54,Male,24.75,Former,8,2.8,8.4,Heart Disease,2,Moderate
+52,Other,24.22,Former,14,7.7,7.8,Hypertension,10,Low
+61,Other,30.31,Never,4,2.3,6.7,Hypertension,3,Low
+57,Other,13.83,Former,12,6.9,7.0,Hypertension,1,High
+39,Female,26.18,Current,13,2.3,6.0,Heart Disease,9,High
+44,Female,19.22,Current,19,6.3,7.3,None,10,High
+52,Female,26.6,Former,14,7.5,8.1,Hypertension,8,Moderate
+18,Other,26.87,Former,15,2.2,4.6,Hypertension,5,Low
+52,Female,24.57,Former,12,0.6,7.4,Diabetes,2,High
+54,Female,29.04,Former,16,1.3,8.4,None,5,Moderate
+64,Male,18.77,Never,7,6.1,6.4,Heart Disease,6,High
+31,Female,30.54,Former,1,8.5,8.1,Diabetes,1,Low
+20,Female,21.46,Never,4,0.4,11.2,Hypertension,4,High
+18,Other,17.22,Current,5,7.3,6.8,Diabetes,9,Low
+22,Other,23.64,Former,11,3.4,7.6,Diabetes,2,Moderate
+43,Other,14.52,Never,17,4.8,5.9,Hypertension,5,Moderate
+72,Other,26.27,Former,0,9.3,7.3,None,1,High
+31,Other,23.7,Current,16,3.3,7.7,None,4,Low
+56,Other,31.17,Current,10,4.7,7.3,Diabetes,4,Low
+44,Female,28.24,Current,9,0.1,5.5,Hypertension,6,Low
+26,Other,18.04,Former,18,0.8,7.3,Heart Disease,10,High
+32,Other,20.81,Former,13,2.6,9.2,Diabetes,9,Low
+32,Male,27.6,Never,9,0.3,7.7,Heart Disease,3,Low
+43,Female,29.24,Current,14,6.3,8.4,Diabetes,9,Low
+59,Female,31.11,Former,18,4.3,6.6,Diabetes,6,Low
+77,Female,31.07,Current,3,5.5,8.1,Hypertension,7,High
+30,Other,24.55,Current,1,1.7,7.4,Hypertension,10,High
+68,Other,26.81,Never,8,3.0,5.6,Heart Disease,2,Low
+49,Other,31.49,Never,9,6.6,7.5,Heart Disease,10,Low
+56,Male,23.48,Never,10,9.7,5.5,None,6,Moderate
+66,Other,26.9,Never,13,0.5,6.1,Hypertension,6,Moderate
+69,Male,23.37,Current,6,8.9,7.3,Diabetes,2,Low
+78,Female,22.25,Never,14,5.8,7.4,Diabetes,2,Low
+49,Other,25.24,Never,18,5.6,5.2,None,2,Moderate
+21,Male,21.56,Never,14,5.0,8.6,Hypertension,10,Moderate
+47,Male,24.35,Never,7,0.7,7.9,Diabetes,1,Low
+54,Other,19.83,Current,10,0.9,5.9,None,5,High
+40,Female,24.05,Never,8,6.0,4.7,None,8,High
+56,Female,27.24,Current,14,3.4,6.8,Diabetes,2,Low
+62,Female,22.06,Former,0,9.2,6.3,Diabetes,5,Low
+32,Male,25.05,Current,0,4.1,7.2,Heart Disease,8,Moderate
+60,Male,25.7,Current,18,1.4,6.5,Hypertension,10,Moderate
+46,Male,27.26,Never,2,7.1,4.0,Heart Disease,5,High
+53,Male,24.33,Former,9,2.9,6.4,None,2,Low
+30,Female,30.43,Former,7,5.3,6.5,Diabetes,3,Moderate
+49,Other,14.5,Former,14,7.0,8.0,Heart Disease,6,High
+24,Male,39.69,Former,9,9.0,6.0,None,5,High
+76,Male,20.64,Current,0,7.9,9.5,Hypertension,4,High
+68,Female,27.02,Former,17,6.8,4.1,Diabetes,4,Moderate
+39,Other,20.31,Current,1,6.8,9.0,Heart Disease,5,Moderate
+45,Other,28.22,Current,18,9.5,6.7,Hypertension,2,Low
+19,Female,26.38,Current,12,3.0,8.3,Heart Disease,9,Low
+59,Female,21.75,Former,0,0.0,7.1,None,2,High
+62,Other,30.37,Never,1,2.7,8.7,Hypertension,10,High
+79,Male,24.18,Never,15,2.2,6.4,Heart Disease,2,Moderate
+74,Other,27.74,Former,14,6.6,5.4,Hypertension,10,Moderate
+70,Female,20.41,Never,12,6.3,9.1,None,9,Low
+23,Male,24.85,Never,15,5.9,6.8,Hypertension,3,Low
+45,Male,35.02,Current,16,0.2,7.3,Heart Disease,10,Low
+45,Female,29.81,Current,6,7.3,8.9,None,7,Moderate
+61,Female,26.54,Former,16,3.2,5.5,Diabetes,4,High
+61,Female,22.76,Former,6,6.7,7.9,Heart Disease,6,Low
+37,Other,25.34,Never,12,5.6,6.1,Heart Disease,4,Low
+47,Other,25.99,Current,4,3.4,6.8,None,10,Moderate
+79,Male,27.25,Former,16,1.3,7.1,None,7,Low
+28,Female,19.62,Former,2,0.9,4.7,Diabetes,1,High
+75,Male,28.34,Former,6,8.3,5.8,Heart Disease,3,Moderate
+72,Male,19.55,Former,16,9.2,9.0,None,3,Low
+45,Male,33.16,Former,6,6.5,8.3,Diabetes,1,Low
+42,Male,21.14,Former,0,1.0,6.9,Diabetes,6,Moderate
+56,Female,26.48,Never,16,4.0,7.4,None,9,Moderate
+79,Male,30.03,Current,16,7.3,6.6,Heart Disease,8,Low
+50,Female,23.74,Current,10,7.8,9.0,Hypertension,7,High
+18,Female,26.7,Former,2,1.2,6.7,Hypertension,10,Moderate
+74,Other,32.18,Current,14,0.0,7.3,Diabetes,8,High
+44,Female,27.82,Current,10,7.1,8.7,Hypertension,6,Low
+79,Other,26.78,Current,15,3.6,5.8,Hypertension,9,High
+74,Female,16.58,Former,8,2.5,9.3,None,3,Low
+69,Female,20.33,Former,0,0.1,4.7,Diabetes,10,Low
+30,Female,30.23,Current,15,5.4,9.4,Heart Disease,10,Low
+58,Other,27.85,Current,8,8.5,6.4,Diabetes,9,Low
+20,Other,28.61,Former,18,9.6,6.6,None,4,High
+56,Male,28.18,Never,11,5.7,4.2,Hypertension,7,Low
+23,Other,31.45,Current,18,5.1,6.3,Heart Disease,9,Low
+25,Other,23.69,Never,8,0.9,5.4,Diabetes,2,High
+44,Other,25.6,Current,6,5.5,6.1,Hypertension,2,Moderate
+26,Other,19.86,Never,13,3.8,6.8,Diabetes,9,High
+79,Male,18.61,Never,18,6.1,8.4,Heart Disease,3,High
+54,Other,16.78,Never,18,3.9,7.3,Diabetes,9,High
+50,Female,20.57,Former,1,2.4,7.5,Diabetes,5,Low
+68,Female,32.76,Never,8,0.9,5.4,Diabetes,6,Low
+59,Other,17.24,Never,12,3.1,5.7,Hypertension,2,Low
+61,Other,23.48,Never,14,1.0,9.7,Heart Disease,8,Moderate
+41,Female,18.53,Current,2,1.8,5.9,Heart Disease,9,Low
+32,Female,22.0,Never,10,9.9,9.5,Hypertension,2,Moderate
+76,Male,25.85,Current,13,4.4,6.6,Hypertension,6,Low
+71,Female,21.5,Never,7,5.3,7.0,Hypertension,6,High
+49,Female,30.45,Never,17,8.7,8.6,None,8,Low
+49,Other,32.67,Former,18,10.0,8.9,Diabetes,10,Moderate
+41,Female,13.75,Current,15,5.8,6.8,Diabetes,5,Moderate
+58,Male,21.59,Never,1,8.1,6.4,Heart Disease,9,Low
+69,Female,25.3,Current,7,3.3,6.9,Diabetes,1,High
+66,Other,30.63,Current,5,3.1,7.5,None,9,Low
+79,Other,22.73,Former,11,4.0,8.3,Hypertension,10,Low
+66,Female,24.9,Former,14,6.7,7.0,Heart Disease,7,Low
+75,Other,19.22,Former,7,6.8,7.9,Heart Disease,4,High
+69,Male,17.34,Former,3,3.2,9.5,Diabetes,3,Moderate
+29,Male,32.23,Former,14,1.3,7.6,Heart Disease,10,High
+79,Female,15.88,Former,19,6.3,7.5,Hypertension,6,Moderate
+56,Female,36.64,Former,16,1.3,4.7,Heart Disease,1,Moderate
+19,Female,28.63,Former,12,5.8,3.1,Hypertension,3,Moderate
+20,Other,28.4,Never,17,6.9,7.6,None,2,High
+66,Male,27.88,Current,1,7.0,6.9,None,9,Low
+54,Male,23.74,Former,12,7.5,6.2,Hypertension,3,Low
+66,Other,26.96,Former,12,8.7,7.4,Diabetes,2,Low
+73,Male,24.06,Current,14,5.0,6.9,Heart Disease,4,Low
+34,Female,27.77,Never,19,7.3,8.7,Diabetes,2,Low
+76,Female,24.83,Current,9,6.2,7.1,Heart Disease,1,High
+66,Female,20.25,Current,2,1.9,5.9,None,6,High
+19,Male,20.65,Former,18,0.3,8.5,None,10,High
+19,Female,20.08,Current,2,2.8,6.7,None,8,High
+45,Other,29.85,Current,13,4.4,7.8,Heart Disease,10,High
+71,Other,21.91,Former,7,6.2,6.3,None,10,High
+40,Male,15.44,Former,3,8.5,6.0,None,2,High
+54,Other,26.98,Former,19,2.0,7.1,None,9,Low
+49,Other,32.57,Former,10,1.3,7.0,None,3,Moderate
+50,Male,28.87,Current,10,9.6,7.7,Diabetes,8,High
+18,Female,21.98,Current,10,1.1,6.6,None,8,Moderate
+36,Female,17.07,Never,1,4.8,4.2,None,3,High
+79,Female,24.33,Never,16,5.9,6.4,Diabetes,3,High
+19,Male,24.2,Current,8,5.4,8.2,Diabetes,6,Low
+70,Other,20.15,Never,1,0.9,6.6,Heart Disease,1,Moderate
+61,Female,27.76,Current,14,0.6,6.6,Hypertension,4,Low
+43,Female,34.23,Never,15,1.1,8.5,None,1,Low
+49,Male,26.11,Former,3,5.9,5.9,None,3,Moderate
+23,Female,25.8,Never,7,5.4,4.7,None,9,Low
+49,Male,20.31,Former,8,2.3,6.8,Heart Disease,5,High
+72,Other,31.99,Former,4,6.4,6.3,None,5,High
+21,Male,24.62,Former,15,8.2,5.6,Hypertension,4,High
+72,Male,22.11,Former,12,0.4,6.7,Diabetes,3,High
+28,Male,25.32,Never,6,5.0,7.7,Heart Disease,5,High
+73,Male,27.36,Current,19,6.9,7.0,Diabetes,4,Low
+76,Other,25.7,Former,16,2.5,7.5,None,8,Low
+34,Other,31.03,Never,2,3.1,9.7,None,4,High
+55,Female,26.92,Former,4,6.1,6.5,None,8,High
+41,Other,23.58,Never,18,9.0,7.4,Hypertension,6,Low
+22,Other,27.01,Never,11,8.1,6.2,Hypertension,5,Moderate
+69,Female,27.5,Never,6,5.8,5.7,Heart Disease,4,Low
+51,Other,18.52,Current,8,7.3,6.1,Diabetes,4,Low
+23,Male,30.75,Never,5,3.6,6.3,None,4,Low
+39,Male,23.5,Never,16,6.4,7.5,None,9,Low
+28,Female,23.62,Current,15,4.7,10.5,None,4,Low
+65,Female,28.76,Current,2,1.9,5.9,None,9,Moderate
+33,Female,28.74,Never,3,7.0,6.4,Hypertension,10,High
+50,Male,21.5,Current,9,5.6,6.9,Diabetes,6,High
+26,Other,29.01,Former,4,3.6,7.6,Diabetes,10,Moderate
+77,Male,22.2,Former,9,9.1,7.4,Heart Disease,7,High
+76,Female,34.1,Current,11,0.2,8.9,Hypertension,10,High
+23,Other,20.86,Current,9,3.2,3.4,None,3,High
+33,Other,26.2,Never,12,0.6,3.4,Diabetes,8,Moderate
+46,Male,21.09,Current,10,7.7,6.3,Diabetes,3,Moderate
+20,Female,36.11,Never,15,7.0,8.6,Hypertension,1,High
+37,Male,18.81,Former,7,3.3,4.7,Heart Disease,10,High
+77,Other,27.62,Current,7,6.8,2.5,Heart Disease,5,High
+76,Male,21.33,Never,7,4.0,7.9,None,2,Low
+53,Male,23.23,Never,12,7.6,7.4,Heart Disease,10,Low
+36,Female,27.27,Former,1,4.5,5.4,Diabetes,6,Low
+43,Female,31.12,Current,11,4.1,5.5,Heart Disease,10,Moderate
+20,Other,33.12,Former,9,9.3,5.5,None,9,High
+36,Male,17.32,Never,11,2.5,7.2,Diabetes,1,Moderate
+37,Male,26.34,Never,10,1.2,6.1,Heart Disease,4,Moderate
+49,Male,32.3,Current,14,5.8,7.7,Heart Disease,1,Moderate
+24,Other,16.57,Never,15,9.7,2.7,Hypertension,1,High
+69,Other,26.57,Current,16,3.8,5.7,None,8,Low
+58,Female,24.99,Former,1,0.6,5.3,Heart Disease,2,High
+50,Female,27.07,Current,17,3.4,6.6,Hypertension,1,High
+57,Female,21.14,Current,11,5.1,6.2,Diabetes,8,Moderate
+56,Male,17.82,Never,18,1.6,8.2,Hypertension,4,Moderate
+35,Male,15.43,Never,17,6.6,4.2,Hypertension,3,Moderate
+57,Female,29.88,Current,16,10.0,7.1,Heart Disease,4,Low
+18,Male,30.52,Never,5,4.5,7.8,Heart Disease,5,Low
+28,Female,26.51,Never,14,3.5,9.8,Heart Disease,1,Low
+45,Other,22.33,Never,2,4.0,6.3,Hypertension,1,High
+74,Female,16.88,Current,5,1.2,7.5,Diabetes,3,Moderate
+42,Other,27.82,Never,2,8.8,4.3,None,6,High
+67,Male,19.5,Current,0,4.1,3.4,Hypertension,1,Low
+40,Female,21.44,Never,12,3.9,8.3,Heart Disease,2,Moderate
+48,Male,22.07,Former,13,6.6,7.0,None,7,Low
+47,Other,24.01,Never,12,4.4,8.8,Diabetes,1,Moderate
+59,Other,21.2,Never,3,6.5,4.9,None,7,Moderate
+52,Other,25.17,Current,6,0.6,7.8,Heart Disease,4,High
+24,Male,21.89,Current,9,8.1,9.8,Hypertension,10,High
+77,Male,28.51,Never,6,9.4,7.6,Hypertension,6,Low
+33,Male,30.16,Former,14,6.5,7.4,Heart Disease,8,High
+43,Male,25.54,Never,14,9.5,7.0,Hypertension,9,High
+65,Other,27.31,Never,3,1.5,4.6,Heart Disease,6,High
+74,Other,35.59,Former,5,4.8,9.0,Hypertension,9,Moderate
+69,Female,19.14,Current,19,6.0,6.1,Hypertension,4,High
+77,Female,18.83,Never,4,5.8,7.8,Hypertension,6,Low
+66,Male,28.47,Current,19,4.0,4.7,Diabetes,8,Moderate
+19,Other,34.73,Current,11,3.4,5.2,Diabetes,9,Moderate
+18,Other,23.7,Former,0,1.3,9.2,Heart Disease,3,High
+65,Other,33.63,Former,7,3.9,6.5,Diabetes,2,Moderate
+79,Female,25.48,Current,0,1.6,9.2,Heart Disease,6,Low
+29,Female,21.6,Never,4,7.3,6.9,None,4,Low
+22,Other,20.05,Current,5,2.1,4.2,None,1,Moderate
+54,Other,28.15,Never,2,0.6,8.3,Diabetes,8,High
+49,Other,20.43,Never,14,5.5,6.1,None,9,High
+76,Female,25.41,Former,4,6.0,8.0,None,9,Moderate
+72,Other,32.92,Never,13,8.7,7.0,Hypertension,2,Low
+26,Other,23.47,Never,17,5.8,4.7,Hypertension,9,Moderate
+58,Male,31.57,Current,15,3.5,7.2,Heart Disease,7,High
+52,Male,18.93,Former,5,8.0,10.3,None,5,High
+36,Female,22.33,Never,13,5.4,7.7,Heart Disease,7,Moderate
+65,Other,17.96,Never,7,0.8,6.9,Heart Disease,9,Low
+33,Other,25.36,Former,6,5.7,8.6,None,8,Moderate
+20,Male,28.9,Current,7,9.1,7.3,Diabetes,6,Low
+37,Female,25.38,Former,12,4.0,7.3,None,4,Low
+41,Male,31.14,Former,5,3.0,5.4,Hypertension,1,Moderate
+71,Male,21.25,Never,17,1.4,7.4,None,6,Moderate
+73,Male,26.13,Never,1,1.5,8.6,Diabetes,3,Low
+50,Male,22.36,Current,7,4.3,5.7,Heart Disease,6,Low
+41,Other,26.81,Never,10,6.0,9.1,Heart Disease,6,Low
+69,Other,27.52,Never,0,0.8,6.9,Hypertension,4,Low
+28,Male,27.91,Former,5,9.4,5.7,Hypertension,2,High
+66,Female,19.65,Never,15,7.6,8.5,Hypertension,9,Moderate
+25,Female,20.55,Current,19,5.9,6.6,Heart Disease,2,Low
+53,Female,21.48,Former,11,8.3,8.1,Hypertension,3,Moderate
+55,Female,23.81,Current,10,0.8,6.6,None,10,Low
+57,Male,25.44,Former,9,4.8,6.9,Heart Disease,1,Moderate
+37,Other,28.54,Never,2,6.3,7.7,Diabetes,7,Moderate
+79,Female,20.76,Former,12,8.3,7.4,Heart Disease,1,Low
+52,Male,16.99,Former,2,7.8,4.0,None,9,Low
+65,Female,35.78,Never,14,2.8,5.3,None,1,Moderate
+79,Female,19.34,Never,15,9.4,8.4,Hypertension,5,Moderate
+42,Male,29.18,Current,12,1.2,6.8,Heart Disease,7,Moderate
+52,Other,25.16,Current,16,8.8,6.2,Heart Disease,3,High
+42,Other,26.26,Never,2,9.7,5.0,Heart Disease,9,Low
+46,Male,24.99,Never,19,1.8,5.4,Diabetes,8,High
+35,Other,23.08,Never,10,7.2,4.0,Hypertension,3,High
+63,Male,27.32,Former,18,0.4,6.8,None,5,Low
+35,Male,22.81,Former,10,4.1,6.1,None,7,Low
+19,Male,30.83,Former,15,5.2,5.6,Hypertension,4,High
+71,Other,27.84,Never,2,5.8,6.9,None,5,Low
+52,Male,28.0,Current,5,9.4,7.5,None,3,Moderate
+33,Female,22.46,Never,13,6.7,10.1,Hypertension,9,Moderate
+78,Other,23.82,Former,17,4.8,4.7,None,10,High
+58,Other,19.06,Former,16,8.1,8.7,Heart Disease,9,High
+53,Other,23.23,Never,3,9.5,8.5,Diabetes,7,Low
+50,Other,19.82,Never,14,0.2,5.8,Hypertension,10,Low
+21,Female,31.57,Former,10,9.8,7.3,Diabetes,2,High
+50,Other,25.25,Former,2,0.9,6.3,None,7,High
+31,Other,25.85,Former,2,8.1,7.3,None,7,Moderate
+38,Male,23.87,Never,15,2.8,9.3,Heart Disease,5,Moderate
+65,Other,25.99,Former,4,1.3,7.9,Hypertension,9,Low
+37,Female,37.32,Former,9,4.4,7.8,None,3,Moderate
+73,Female,23.5,Current,18,6.4,6.4,Hypertension,4,Low
+25,Female,21.75,Never,3,3.8,4.8,Hypertension,1,Low
+24,Female,27.65,Current,18,0.5,6.7,Hypertension,6,Low
+20,Other,12.37,Current,10,6.0,8.8,Hypertension,4,Moderate
+34,Other,25.32,Former,1,9.0,4.7,Hypertension,1,High
+50,Female,23.14,Never,9,3.8,5.4,Diabetes,2,High
+65,Female,20.04,Former,10,2.2,7.2,Heart Disease,3,Moderate
+29,Other,27.54,Never,19,4.4,5.5,Hypertension,9,High
+76,Female,25.27,Current,15,0.5,5.8,Diabetes,8,Low
+68,Male,15.99,Never,18,8.2,6.4,None,7,High
+39,Female,21.77,Former,10,8.3,5.0,Hypertension,4,Moderate
+72,Female,10.56,Former,13,5.9,5.5,None,1,High
+39,Male,26.47,Former,1,3.5,8.1,Hypertension,8,Low
+63,Male,26.42,Never,4,8.0,5.0,Diabetes,4,Low
+47,Other,21.03,Current,4,5.5,4.6,Diabetes,3,Moderate
+55,Other,27.7,Current,18,8.3,6.1,Diabetes,9,Moderate
+55,Male,18.59,Never,11,6.3,8.1,Heart Disease,10,Moderate
+62,Male,20.17,Former,17,7.8,6.7,None,4,Low
+68,Other,27.09,Current,3,6.0,6.3,Heart Disease,4,High
+71,Female,21.56,Former,16,4.1,7.1,Hypertension,9,High
+25,Male,24.69,Never,9,9.6,4.4,None,2,Moderate
+44,Other,22.18,Former,19,5.4,7.7,Diabetes,5,High
+44,Female,22.95,Current,5,6.1,7.6,None,4,High
+51,Male,23.16,Current,13,2.2,6.4,Diabetes,9,Moderate
+38,Female,21.47,Former,10,6.3,8.5,Heart Disease,5,Moderate
+47,Other,26.51,Never,10,5.7,5.3,Heart Disease,9,Low
+50,Male,21.86,Former,17,1.8,8.7,Diabetes,9,Low
+45,Female,25.08,Never,17,0.6,7.2,Diabetes,2,Low
+64,Male,21.36,Former,10,6.0,6.5,Hypertension,9,Low
+50,Female,17.33,Current,11,7.6,7.0,Heart Disease,3,High
+22,Other,29.56,Never,4,5.2,6.8,Heart Disease,4,High
+77,Other,27.5,Never,8,2.3,8.8,Hypertension,1,Low
+78,Male,36.44,Never,8,6.7,5.4,Heart Disease,1,Low
+65,Female,19.78,Current,9,0.8,5.9,Diabetes,1,Moderate
+36,Male,23.96,Former,18,4.4,8.6,None,9,High
+21,Male,24.36,Current,0,1.6,6.1,None,8,High
+52,Female,29.95,Never,6,1.8,8.4,Heart Disease,5,Low
+66,Female,22.46,Former,3,2.0,9.5,Hypertension,5,High
+34,Female,19.14,Current,0,3.9,6.4,Diabetes,9,Moderate
+61,Other,31.04,Never,14,0.5,8.0,None,3,Moderate
+45,Male,23.42,Never,7,4.0,5.3,Diabetes,3,High
+47,Male,29.39,Current,11,5.1,8.1,Heart Disease,7,Low
+46,Other,28.81,Current,17,4.8,7.3,Heart Disease,9,High
+63,Female,24.85,Current,14,3.8,7.7,None,6,Moderate
+70,Other,24.13,Never,16,8.4,6.0,Heart Disease,2,Low
+23,Other,23.04,Current,13,1.5,4.5,Hypertension,1,High
+52,Other,24.92,Never,13,5.1,7.8,Heart Disease,2,Low
+77,Male,29.32,Current,17,0.6,3.9,Heart Disease,1,Low
+58,Other,21.02,Never,19,0.7,6.5,Heart Disease,10,Moderate
+54,Male,25.54,Never,17,5.7,8.4,Diabetes,10,Low
+41,Male,19.41,Former,15,5.7,7.3,Diabetes,9,High
+46,Male,20.03,Current,0,8.8,9.9,None,10,Low
+66,Female,24.85,Current,10,5.6,8.5,None,8,Low
+63,Male,15.2,Never,14,9.6,6.0,None,7,High
+70,Male,35.3,Never,11,0.5,7.0,Heart Disease,3,Moderate
+48,Female,19.03,Never,7,1.0,6.9,Diabetes,8,Moderate
+52,Male,24.8,Former,19,0.4,4.6,Hypertension,2,High
+77,Other,30.84,Former,5,1.9,5.6,Heart Disease,2,High
+50,Other,20.69,Never,2,5.4,6.2,Heart Disease,10,Moderate
+69,Male,13.49,Current,12,6.5,3.9,Heart Disease,3,Low
+78,Female,22.78,Current,12,0.5,7.1,Hypertension,7,High
+38,Other,20.63,Former,1,9.5,6.6,None,1,Low
+49,Female,13.62,Former,4,8.4,4.5,Hypertension,8,High
+40,Female,26.42,Never,16,3.0,7.6,None,7,Moderate
+50,Other,26.04,Current,5,0.8,8.1,Hypertension,4,Low
+20,Female,30.71,Never,1,1.7,7.3,Diabetes,5,Low
+35,Other,19.4,Former,3,1.3,6.5,Heart Disease,10,High
+42,Female,17.0,Current,10,1.2,7.9,Heart Disease,1,Low
+59,Other,22.97,Current,7,5.2,8.0,Heart Disease,4,High
+48,Male,24.56,Former,11,2.5,7.5,None,1,Moderate
+71,Other,29.61,Never,7,3.6,5.8,Hypertension,1,Low
+75,Other,32.05,Never,10,9.9,7.4,Diabetes,10,High
+20,Other,31.07,Current,19,6.8,8.8,Hypertension,1,Low
+57,Other,26.38,Former,7,9.5,6.1,Heart Disease,7,High
+63,Female,29.0,Current,7,1.4,10.1,Diabetes,7,High
+41,Male,21.8,Former,16,3.8,6.2,Diabetes,4,High
+67,Other,25.84,Never,19,5.5,7.0,Heart Disease,2,Moderate
+49,Female,19.04,Former,19,0.8,6.0,Hypertension,3,Low
+64,Male,25.31,Never,15,0.0,7.3,Heart Disease,8,Moderate
+39,Male,25.44,Former,13,6.7,4.4,Hypertension,8,High
+40,Male,33.61,Current,10,6.4,6.2,Diabetes,6,High
+19,Male,23.86,Never,6,4.1,5.4,Diabetes,10,Moderate
+44,Other,25.45,Current,15,4.9,7.2,Heart Disease,9,Moderate
+59,Other,26.18,Current,12,4.2,8.5,Diabetes,9,Low
+19,Female,22.73,Never,14,0.2,8.0,None,4,High
+43,Female,20.99,Never,15,3.4,3.4,Diabetes,1,Moderate
+34,Female,31.49,Current,8,1.8,10.1,None,1,High
+57,Male,20.1,Current,2,1.0,7.4,Diabetes,10,High
+50,Male,18.36,Current,18,9.6,5.8,Heart Disease,5,Low
+26,Other,28.4,Current,19,6.0,7.2,Heart Disease,2,Low
+60,Male,30.79,Never,4,7.3,7.3,None,6,Low
+71,Male,22.74,Never,9,3.2,6.0,Heart Disease,7,Moderate
+65,Male,22.82,Current,16,3.9,7.3,Diabetes,1,High
+56,Female,26.41,Former,14,2.4,6.1,Diabetes,6,Moderate
+46,Female,21.46,Former,7,1.0,6.4,Heart Disease,8,Moderate
+59,Other,21.09,Never,14,1.8,6.0,Diabetes,5,Low
+72,Male,29.4,Current,13,8.0,4.9,Hypertension,7,High
+43,Male,28.04,Current,19,6.8,7.2,Hypertension,10,High
+52,Other,31.56,Never,6,5.5,7.9,Diabetes,6,Low
+67,Male,18.74,Former,11,4.8,7.8,Heart Disease,4,High
+42,Male,22.49,Former,16,9.2,8.2,None,7,Low
+41,Female,26.41,Former,16,0.7,7.5,Heart Disease,10,Moderate
+30,Other,20.37,Never,9,2.8,6.2,None,9,Moderate
+77,Other,28.21,Former,18,3.5,8.3,Heart Disease,10,Low
+75,Other,31.12,Never,13,7.8,5.0,Diabetes,10,Moderate
+24,Other,22.08,Never,10,9.9,5.6,Hypertension,7,Moderate
+74,Female,25.19,Current,1,2.4,5.6,Heart Disease,5,Low
+53,Female,32.28,Former,17,8.7,8.6,None,7,Moderate
+62,Male,34.0,Never,6,8.3,8.4,Hypertension,3,High
+37,Male,28.73,Former,11,2.2,7.7,None,2,Moderate
+18,Male,27.97,Former,1,4.0,8.6,Diabetes,5,Low
+25,Male,20.73,Current,19,4.1,5.7,Hypertension,4,High
+63,Female,26.8,Former,17,9.8,7.5,None,5,High
+33,Other,27.78,Current,5,1.8,6.8,Heart Disease,8,Moderate
+31,Female,23.95,Never,9,8.0,8.3,Diabetes,4,High
+29,Male,22.03,Former,19,3.3,6.8,Diabetes,9,Low
+68,Female,18.59,Never,14,7.3,6.4,Diabetes,7,High
+40,Other,16.31,Former,4,4.2,7.8,Heart Disease,10,Moderate
+32,Other,15.26,Never,19,5.8,8.3,Heart Disease,7,Moderate
+45,Female,27.9,Former,2,8.3,6.0,Hypertension,8,High
+51,Female,25.74,Former,4,8.0,6.9,Heart Disease,6,Low
+19,Female,22.58,Former,7,8.7,5.4,Hypertension,8,Low
+49,Male,23.34,Former,7,0.6,3.3,Diabetes,3,Moderate
+40,Female,26.05,Former,7,6.9,7.3,Hypertension,10,Moderate
+39,Female,24.18,Former,11,1.4,7.9,None,10,Low
+68,Female,18.3,Former,7,4.2,7.4,Diabetes,1,High
+42,Other,29.57,Former,10,5.5,4.1,Diabetes,6,High
+75,Other,26.52,Former,13,4.0,6.5,Hypertension,1,High
+79,Male,26.33,Never,7,5.2,3.7,Diabetes,9,High
+78,Male,29.19,Current,9,10.0,9.1,Heart Disease,2,Low
+39,Other,20.93,Former,6,1.4,5.4,None,2,Moderate
+75,Other,31.07,Current,16,6.8,8.9,Hypertension,7,Moderate
+75,Other,24.3,Former,3,4.0,8.4,Hypertension,2,High
+39,Female,29.44,Former,12,1.3,5.6,Diabetes,10,Low
+66,Female,28.67,Never,3,1.6,5.3,Heart Disease,8,Low
+69,Other,19.81,Never,4,9.5,7.5,Diabetes,6,High
+59,Female,27.51,Current,3,8.8,5.7,Diabetes,7,High
+23,Female,26.63,Never,17,9.1,7.2,Hypertension,7,High
+32,Male,25.15,Never,5,9.9,6.3,Diabetes,6,Moderate
+71,Other,24.53,Current,1,2.1,4.3,None,10,High
+60,Other,24.57,Never,10,3.6,3.7,Diabetes,9,Moderate
+77,Female,29.06,Former,13,6.7,7.3,Diabetes,9,Low
+54,Other,27.89,Current,4,4.8,6.2,Hypertension,7,Low
+50,Male,25.15,Current,5,4.2,6.2,Diabetes,9,Moderate
+25,Male,17.54,Former,9,3.6,8.0,Heart Disease,10,Moderate
+70,Male,27.47,Never,7,5.9,8.8,Hypertension,3,Moderate
+77,Other,28.62,Current,13,5.8,6.6,Diabetes,3,Moderate
+61,Other,36.5,Current,2,1.6,6.5,None,1,High
+61,Other,30.38,Former,11,4.7,7.8,None,5,Low
+22,Other,15.5,Former,15,5.5,5.0,Hypertension,4,High
+56,Other,25.39,Never,16,5.7,7.3,Hypertension,2,Moderate
+21,Male,34.06,Current,0,2.1,7.8,Diabetes,9,High
+23,Female,28.12,Never,9,7.4,8.0,Heart Disease,3,High
+62,Male,26.64,Never,9,0.3,4.1,Diabetes,8,Low
+49,Other,29.5,Former,1,3.5,5.9,None,6,High
+69,Male,21.89,Current,8,7.8,5.7,Heart Disease,5,Low
+47,Other,27.39,Current,12,5.6,7.1,Heart Disease,1,Moderate
+64,Other,23.75,Current,15,2.6,7.7,Heart Disease,4,High
+52,Male,24.9,Former,17,6.9,9.2,Diabetes,3,Moderate
+72,Other,29.14,Former,18,5.7,6.3,None,1,Low
+57,Female,20.37,Former,11,8.0,6.3,Hypertension,5,Moderate
+69,Other,31.44,Former,7,7.4,8.7,Diabetes,6,Moderate
+33,Female,22.89,Former,16,6.1,7.4,Hypertension,2,Low
+30,Female,26.3,Current,14,4.9,8.9,Heart Disease,3,Moderate
+67,Other,18.0,Never,9,1.3,7.4,Heart Disease,6,Moderate
+77,Male,28.6,Current,14,2.6,5.3,Diabetes,4,Moderate
+59,Female,32.23,Never,14,4.2,5.0,None,9,High
+47,Male,22.43,Former,6,6.0,4.7,Heart Disease,5,Moderate
+36,Female,19.45,Never,12,5.1,8.0,Hypertension,4,Low
+34,Other,26.39,Current,16,2.9,8.8,Hypertension,2,High
+73,Other,32.27,Current,8,0.1,9.8,Diabetes,6,High
+36,Female,17.75,Never,7,5.0,8.3,Hypertension,10,Low
+45,Other,19.47,Former,19,2.9,8.7,None,2,Moderate
+75,Female,22.73,Former,17,7.3,6.1,Heart Disease,7,High
+72,Other,20.9,Current,12,0.2,5.3,Hypertension,3,High
+43,Male,20.91,Never,15,5.8,8.3,Hypertension,9,High
+54,Other,14.53,Former,8,9.4,7.6,Heart Disease,5,Moderate
+43,Male,27.95,Former,11,1.7,7.2,Diabetes,8,High
+70,Other,26.69,Current,11,4.7,7.6,Hypertension,6,Low
+79,Male,16.51,Former,5,0.9,7.5,Diabetes,10,Moderate
+40,Other,32.29,Never,18,6.3,8.9,Diabetes,8,Low
+26,Male,33.41,Current,6,5.5,8.9,Hypertension,3,Low
+29,Female,21.25,Current,2,4.1,7.8,None,3,High
+70,Female,30.83,Never,15,5.2,8.3,Diabetes,5,High
+18,Male,22.14,Current,17,9.0,7.8,Hypertension,10,High
+75,Other,25.91,Former,15,2.0,6.3,Diabetes,3,Low
+75,Male,20.82,Former,6,0.2,8.1,Heart Disease,8,Moderate
+18,Other,36.07,Never,3,8.6,4.9,None,10,High
+64,Female,23.52,Former,7,5.8,8.6,None,8,High
+51,Other,25.63,Never,12,8.9,5.2,Heart Disease,2,Low
+49,Female,21.56,Never,12,6.0,7.4,Heart Disease,4,Moderate
+79,Other,34.31,Former,16,8.1,5.7,Diabetes,10,Low
+71,Other,34.43,Never,16,4.3,7.8,Heart Disease,1,High
+65,Other,33.15,Former,4,7.5,6.9,None,4,Low
+42,Male,29.78,Current,5,9.1,4.6,Heart Disease,4,High
+57,Male,21.88,Current,18,5.7,7.6,Hypertension,10,Moderate
+62,Female,29.14,Never,12,1.8,6.1,Hypertension,9,Low
+70,Female,24.96,Former,13,2.7,8.3,Diabetes,3,High
+18,Male,31.56,Former,3,2.0,7.0,None,2,High
+33,Female,30.58,Current,6,2.5,7.6,Hypertension,9,High
+78,Male,21.75,Current,7,3.1,5.6,Heart Disease,9,High
+56,Other,29.74,Former,12,5.6,6.1,Hypertension,1,Low
+22,Female,28.41,Never,5,5.9,6.3,Hypertension,6,High
+39,Female,11.13,Current,5,4.3,8.3,Diabetes,10,Low
+46,Male,29.0,Never,2,6.2,9.5,Heart Disease,8,High
+72,Female,22.84,Never,2,0.8,5.8,Heart Disease,3,Low
+20,Female,20.57,Current,12,0.9,8.6,Heart Disease,9,Low
+29,Other,20.78,Never,1,1.7,3.7,Diabetes,2,High
+43,Female,24.32,Never,15,5.2,5.2,Heart Disease,6,High
+33,Other,27.4,Former,5,2.1,5.6,Heart Disease,1,High
+68,Male,18.17,Never,7,2.8,5.0,Hypertension,7,High
+54,Female,25.95,Former,7,4.0,4.6,Hypertension,3,Moderate
+39,Other,27.88,Current,5,8.1,7.6,Heart Disease,7,High
+74,Male,34.31,Current,13,0.1,6.7,None,4,High
+46,Female,19.62,Former,2,6.5,7.6,None,9,High
+31,Male,23.25,Current,9,6.7,8.0,Heart Disease,5,Low
+45,Female,26.31,Never,2,8.0,7.4,None,3,High
+22,Male,30.74,Never,11,9.3,8.0,Diabetes,8,Low
+64,Male,23.48,Never,16,0.2,6.9,Hypertension,6,Low
+66,Other,30.99,Current,4,1.5,5.2,Diabetes,2,Low
+47,Male,15.31,Never,19,8.9,8.6,Hypertension,3,Low
+63,Female,18.73,Current,8,4.6,6.1,None,8,Moderate
+79,Female,26.74,Never,19,5.6,5.6,None,10,High
+69,Other,17.95,Former,6,6.6,6.7,Heart Disease,7,Low
+22,Female,19.13,Current,3,6.8,5.6,None,10,High
+29,Female,22.36,Current,12,9.3,6.4,None,6,Low
+33,Female,28.86,Never,12,10.0,7.5,Heart Disease,1,Moderate
+43,Male,15.52,Current,9,7.2,7.5,Heart Disease,9,Low
+43,Male,25.85,Current,17,2.9,5.7,Hypertension,3,High
+65,Female,30.16,Former,16,8.8,6.3,None,5,High
+38,Other,24.03,Former,19,0.5,8.6,Hypertension,7,Moderate
+56,Male,23.16,Never,19,2.3,7.7,Hypertension,7,High
+53,Other,27.01,Former,12,9.0,10.1,Diabetes,3,High
+50,Female,24.04,Never,16,2.6,8.8,None,4,Low
+79,Female,31.95,Never,3,2.2,8.7,None,10,High
+47,Male,19.44,Never,0,1.4,4.9,Diabetes,7,Low
+54,Female,24.74,Current,0,8.6,8.1,Hypertension,8,Moderate
+40,Male,26.03,Former,14,5.0,6.9,None,2,High
+75,Female,23.11,Never,12,6.7,6.2,Hypertension,9,Low
+27,Female,10.64,Former,16,2.4,7.3,Diabetes,7,High
+71,Male,24.2,Never,7,7.6,8.4,Heart Disease,8,Low
+22,Male,29.5,Former,17,7.6,7.8,Hypertension,6,Moderate
+53,Male,28.89,Former,12,3.1,5.7,None,6,Low
+51,Female,26.77,Never,13,4.1,8.1,Heart Disease,9,High
+69,Female,19.51,Current,7,2.1,6.0,Hypertension,4,Low
+48,Other,26.98,Former,7,9.8,7.3,Hypertension,5,High
+27,Male,22.13,Current,14,6.5,6.5,Heart Disease,9,Moderate
+75,Female,26.77,Current,12,9.3,6.7,Heart Disease,1,Low
+36,Female,25.61,Never,6,3.0,8.1,Heart Disease,4,High
+75,Male,20.12,Never,4,7.8,5.4,None,7,High
+49,Other,20.54,Never,16,7.7,9.9,None,9,High
+18,Male,26.78,Former,15,6.9,4.3,Hypertension,10,Low
+73,Other,23.89,Never,1,9.7,6.1,Hypertension,6,Low
+22,Female,20.8,Never,17,3.9,7.6,Diabetes,8,Low
+62,Other,20.39,Former,16,1.3,7.9,None,9,Moderate
+21,Female,23.48,Former,6,6.7,6.8,Hypertension,10,High
+33,Male,32.84,Never,12,7.3,6.9,Heart Disease,4,High
+41,Male,22.37,Never,17,5.8,7.6,Heart Disease,1,Moderate
+33,Male,24.93,Never,13,2.1,6.7,None,8,Moderate
+72,Other,25.51,Never,17,5.0,9.1,Heart Disease,2,Low
+19,Female,19.34,Current,12,3.1,8.3,Diabetes,1,Low
+66,Male,16.19,Current,10,4.3,8.3,Hypertension,7,Low
+45,Male,19.87,Never,15,6.5,5.6,Hypertension,10,Low
+49,Female,26.24,Current,16,7.5,6.9,Hypertension,9,Low
+44,Male,25.44,Former,7,2.3,6.5,None,9,Low
+37,Female,28.51,Current,18,4.1,5.5,Heart Disease,3,Moderate
+41,Female,25.48,Current,19,2.7,7.5,Diabetes,6,Moderate
+29,Female,24.45,Never,14,2.0,6.2,None,7,Moderate
+67,Female,21.98,Current,8,7.8,8.0,Hypertension,10,High
+52,Female,29.42,Current,19,9.1,5.4,Diabetes,9,High
+77,Other,20.4,Current,9,3.7,9.6,Hypertension,2,Low
+50,Male,19.45,Current,11,7.5,5.7,Hypertension,8,Moderate
+50,Other,27.84,Former,19,9.0,7.3,None,7,High
+78,Male,18.33,Never,0,8.5,8.2,Hypertension,4,High
+68,Other,37.07,Never,19,1.8,6.1,Diabetes,2,Moderate
+60,Female,25.4,Former,8,9.6,8.3,Hypertension,8,High
+54,Male,26.74,Current,14,3.8,5.2,Heart Disease,5,High
+29,Male,20.96,Former,0,3.4,9.2,Hypertension,6,Moderate
+20,Other,23.42,Current,11,0.6,7.0,None,7,High
+18,Other,22.87,Former,2,4.9,6.1,Diabetes,10,Moderate
+50,Male,22.29,Never,10,1.1,6.6,None,1,High
+57,Other,28.16,Never,1,2.5,8.2,Heart Disease,8,Moderate
+27,Other,22.75,Never,15,3.2,6.1,Hypertension,4,High
+60,Other,30.09,Current,8,8.1,5.9,None,9,High
+61,Female,38.32,Current,14,8.8,6.7,None,1,Moderate
+46,Female,23.52,Former,11,3.0,5.2,None,2,High
+30,Other,25.76,Former,0,8.6,9.7,None,6,Moderate
+29,Other,26.9,Never,12,8.6,6.2,Heart Disease,10,Moderate
+48,Female,34.06,Current,13,7.6,8.2,Heart Disease,1,High
+63,Female,24.59,Former,7,1.5,7.3,Hypertension,4,Low
+19,Male,20.85,Current,7,6.9,5.5,Hypertension,8,High
+78,Male,18.67,Current,11,9.5,7.0,Diabetes,10,Low
+68,Female,24.71,Never,0,6.8,8.2,Heart Disease,5,Low
+67,Other,22.76,Never,10,3.3,6.7,None,9,High
+52,Other,35.05,Current,7,5.0,8.8,None,6,Low
+40,Other,33.85,Current,9,6.5,8.5,Diabetes,1,Moderate
+34,Other,19.83,Current,18,5.1,8.4,None,6,Moderate
+43,Male,21.45,Current,10,1.2,6.3,Diabetes,6,Low
+25,Female,25.37,Never,6,3.1,5.4,Hypertension,6,Moderate
+46,Other,31.99,Former,10,8.0,6.1,Heart Disease,8,High
+43,Male,25.29,Never,16,8.6,7.3,Diabetes,6,Moderate
+27,Other,21.76,Former,0,1.4,7.8,None,5,Low
+43,Female,24.71,Current,7,9.5,3.7,Diabetes,2,High
+79,Male,21.86,Former,5,3.3,7.0,Hypertension,4,Moderate
+51,Female,28.01,Never,17,6.6,7.2,None,10,High
+68,Female,21.45,Never,5,7.5,6.6,Hypertension,5,Low
+58,Male,22.45,Current,4,8.1,8.9,Hypertension,10,Moderate
+24,Male,30.81,Never,12,9.5,7.6,Diabetes,4,High
+21,Male,21.16,Current,18,3.1,9.0,Hypertension,2,High
+75,Male,17.77,Never,7,8.6,6.7,None,7,Moderate
+70,Male,25.47,Never,8,1.3,8.4,Hypertension,10,High
+67,Male,23.2,Current,16,7.1,9.5,Hypertension,10,High
+62,Male,27.56,Former,2,7.4,9.0,Diabetes,2,Low
+28,Other,26.59,Never,18,6.8,5.4,Hypertension,1,Low
+46,Female,24.84,Former,10,2.5,6.6,Heart Disease,5,Low
+73,Male,24.69,Never,16,8.7,6.5,Diabetes,1,Low
+53,Other,21.32,Never,18,1.7,7.7,Diabetes,1,Low
+42,Other,25.42,Never,1,0.5,8.0,None,1,Low
+38,Other,29.41,Never,7,7.2,5.7,None,6,Moderate
+78,Female,20.13,Former,18,4.8,7.1,None,9,Low
+74,Male,24.97,Former,6,8.5,4.0,None,10,High
+53,Other,30.19,Never,16,3.8,9.2,Heart Disease,1,Moderate
+27,Female,27.53,Never,5,1.7,6.2,Diabetes,5,High
+54,Female,31.55,Former,18,8.4,7.1,Hypertension,9,Low
+26,Female,22.16,Current,5,5.5,6.5,None,9,Low
+41,Other,15.85,Current,1,1.9,8.7,None,1,High
+52,Male,26.0,Former,5,7.2,2.7,None,8,High
+66,Other,26.81,Never,4,5.1,7.0,Hypertension,1,High
+52,Other,31.84,Never,18,6.0,6.8,None,8,Moderate
+65,Male,30.94,Current,19,4.6,6.3,Hypertension,1,Low
+53,Male,27.68,Current,3,8.3,9.6,Diabetes,5,High
+35,Male,28.83,Former,16,8.3,5.7,Diabetes,8,Low
+66,Female,24.04,Current,10,7.1,8.2,Diabetes,6,High
+56,Male,18.9,Former,3,1.1,7.5,Heart Disease,9,Low
+49,Other,25.59,Current,12,8.4,8.9,Hypertension,1,Moderate
+41,Male,29.91,Current,19,6.7,6.0,None,9,Low
+40,Other,28.28,Current,16,7.0,5.9,None,1,High
+79,Female,29.17,Never,8,3.6,8.6,None,10,Low
+49,Other,22.86,Never,3,8.8,7.6,None,10,Moderate
+54,Other,23.67,Never,13,7.3,4.7,Heart Disease,3,Moderate
+29,Male,27.42,Current,18,1.1,6.2,None,1,Low
+66,Male,22.27,Former,2,4.1,7.6,Heart Disease,3,High
+72,Other,22.42,Former,13,8.9,8.3,Hypertension,2,Moderate
+30,Male,26.49,Former,7,0.5,6.0,Diabetes,2,Moderate
+40,Female,28.8,Former,0,9.6,2.6,None,9,Low
+42,Female,24.0,Never,9,6.8,7.8,Diabetes,8,Moderate
+52,Male,19.18,Never,17,6.3,5.2,Hypertension,1,Moderate
+58,Female,21.32,Current,15,2.7,4.0,Hypertension,4,High
+47,Male,26.02,Current,7,2.5,2.8,None,1,High
+34,Other,25.96,Former,0,9.4,8.2,Hypertension,1,High
+66,Other,26.21,Never,11,3.0,7.2,Diabetes,4,Low
+79,Female,27.61,Former,7,7.8,6.7,None,2,Moderate
+37,Male,25.03,Current,15,3.9,9.1,Heart Disease,3,Low
+65,Male,26.33,Current,17,1.4,8.0,None,9,Moderate
+42,Female,24.77,Former,3,0.1,9.4,Diabetes,2,Moderate
+39,Other,30.74,Current,5,5.4,4.9,None,4,Moderate
+30,Female,32.16,Former,11,9.8,6.9,None,1,High
+76,Other,19.05,Never,8,3.7,4.6,Diabetes,2,Low
+36,Male,23.72,Former,14,3.6,6.7,None,5,Low
+66,Other,25.16,Never,15,3.4,6.6,None,10,Moderate
+53,Female,23.67,Never,11,5.2,7.9,Diabetes,1,Low
+29,Male,33.96,Current,13,4.4,7.1,Hypertension,7,High
+78,Female,26.12,Current,12,8.8,7.9,Diabetes,4,Low
+58,Female,20.97,Current,1,5.1,8.1,None,6,Moderate
+36,Other,27.98,Former,2,5.1,10.2,Heart Disease,8,High
+29,Female,26.35,Former,9,1.4,6.5,Heart Disease,6,High
+26,Other,26.52,Current,8,9.8,5.6,Diabetes,2,Moderate
+24,Male,34.04,Former,19,2.5,7.4,Heart Disease,1,Low
+45,Other,26.75,Current,7,0.7,5.8,None,8,Moderate
+31,Male,23.48,Former,9,6.6,9.2,None,8,Low
+48,Other,15.22,Never,18,6.0,6.6,Diabetes,9,Low
+69,Female,24.17,Never,2,4.2,6.2,None,6,High
+36,Other,31.53,Current,4,4.2,6.3,Hypertension,1,Moderate
+75,Other,24.54,Former,2,7.9,8.1,None,9,High
+64,Male,13.8,Former,15,2.0,6.8,Diabetes,3,Moderate
+33,Female,22.51,Never,16,8.2,6.0,Hypertension,6,Moderate
+70,Other,29.96,Never,14,6.5,9.5,Hypertension,10,High
+22,Female,27.73,Current,2,4.2,5.7,Heart Disease,10,Moderate
+52,Other,20.8,Never,11,4.6,7.1,None,9,Moderate
+29,Other,22.17,Current,8,2.6,8.0,Diabetes,3,Low
+42,Female,22.95,Never,11,7.5,4.6,Heart Disease,5,Moderate
+69,Other,21.69,Never,14,5.1,7.7,Heart Disease,5,Moderate
+76,Female,14.85,Former,1,3.2,5.4,None,10,High
+38,Other,28.82,Never,17,6.0,8.2,None,7,High
+53,Male,31.29,Never,19,10.0,5.6,Diabetes,4,Moderate
+70,Female,17.41,Current,11,4.4,8.0,Heart Disease,4,Low
+40,Other,31.22,Never,3,9.2,8.7,Diabetes,7,Low
+33,Other,24.48,Current,15,3.5,8.3,Heart Disease,9,High
+74,Male,31.13,Never,15,0.5,7.4,Heart Disease,4,Moderate
+56,Female,25.19,Never,0,2.0,6.7,Heart Disease,4,Moderate
+62,Other,25.68,Current,1,4.2,6.1,None,6,Low
+70,Male,26.86,Former,2,2.2,9.2,Heart Disease,6,Low
+59,Other,21.05,Current,19,0.0,6.0,Heart Disease,7,Low
+75,Female,30.97,Current,16,9.2,5.4,Heart Disease,1,High
+56,Other,19.39,Current,19,8.4,8.0,Hypertension,3,Moderate
+31,Other,22.99,Former,0,7.4,5.8,None,9,High
+48,Other,27.62,Never,19,1.7,5.6,Hypertension,6,Moderate
+75,Other,22.45,Current,5,1.2,4.8,None,6,High
+22,Male,28.89,Current,14,0.7,6.3,Diabetes,5,Moderate
+52,Male,31.88,Former,13,7.2,6.9,Hypertension,3,Low
+40,Female,30.06,Current,19,9.3,7.4,Diabetes,5,Low
+46,Male,15.32,Never,14,4.3,8.4,Heart Disease,1,Low
+60,Male,25.63,Former,13,1.2,7.8,Diabetes,3,High
+28,Female,30.14,Never,4,5.1,6.7,Diabetes,4,Low
+35,Male,18.42,Never,5,3.5,6.7,Diabetes,5,Moderate
+64,Male,28.62,Former,16,3.7,7.8,Diabetes,10,High
+29,Female,28.34,Current,10,6.2,8.9,None,9,Moderate
+26,Female,18.94,Never,15,7.2,7.2,Hypertension,4,High
+27,Female,29.17,Never,11,1.1,6.3,None,3,Moderate
+75,Other,26.36,Never,14,0.4,5.5,None,10,Moderate
+61,Other,28.25,Never,3,9.9,4.8,None,1,High
+34,Female,20.17,Former,17,2.3,8.0,Diabetes,10,High
+78,Female,25.75,Former,2,0.5,7.9,None,6,Low
+55,Female,16.48,Never,7,1.9,7.9,Hypertension,7,Low
+24,Other,13.62,Current,2,0.4,6.8,None,10,Moderate
+63,Other,25.7,Never,7,3.9,9.1,Heart Disease,8,Moderate
+30,Male,30.5,Current,17,8.0,6.3,Diabetes,1,Moderate
+57,Male,26.26,Never,9,3.4,8.4,Heart Disease,4,High
+59,Female,24.68,Current,19,4.4,6.9,Hypertension,5,High
+26,Other,24.06,Never,16,6.8,6.1,Hypertension,2,Low
+67,Other,20.29,Current,7,5.1,7.9,Hypertension,1,Moderate
+44,Other,23.89,Never,10,8.6,7.6,Hypertension,8,Low
+75,Female,27.11,Never,4,8.7,7.5,None,6,High
+19,Male,22.82,Current,12,0.1,7.1,Diabetes,5,High
+22,Female,28.75,Former,4,7.8,6.9,Hypertension,9,High
+46,Male,25.98,Current,12,4.6,10.6,Heart Disease,2,Low
+54,Male,26.58,Former,5,9.9,8.8,Hypertension,10,High
+55,Female,29.44,Never,4,4.8,8.1,Diabetes,8,Moderate
+36,Male,22.37,Current,8,9.9,7.2,Heart Disease,10,Low
+25,Male,28.3,Current,15,7.5,8.5,Heart Disease,9,High
+65,Other,23.07,Current,1,2.5,7.8,Heart Disease,1,Low
+62,Male,26.7,Former,0,5.4,7.0,None,7,Low
+18,Female,21.77,Former,7,9.9,6.5,Hypertension,8,High
+39,Female,20.45,Never,18,8.6,6.9,None,3,High
+69,Male,25.46,Former,10,1.0,2.2,Heart Disease,4,Low
+34,Other,15.57,Former,11,7.1,7.3,None,3,Low
+24,Other,23.52,Never,11,3.5,6.3,None,7,High
+42,Male,16.97,Current,6,0.1,9.4,None,9,Moderate
+62,Male,28.9,Current,12,4.0,7.0,Hypertension,3,Low
+21,Female,30.25,Never,7,2.3,5.2,Heart Disease,6,Low
+53,Male,20.68,Current,8,8.2,6.9,Heart Disease,8,Moderate
+23,Other,27.14,Former,6,3.4,5.4,Hypertension,6,High
+77,Male,29.5,Never,14,8.3,7.7,None,2,High
+48,Female,29.51,Never,1,0.0,7.4,None,7,Moderate
+36,Female,26.07,Never,19,3.1,8.4,Diabetes,2,High
+78,Female,28.67,Current,11,2.4,5.8,Diabetes,2,High
+61,Female,21.75,Never,0,2.3,7.1,Diabetes,2,Low
+71,Female,25.42,Never,7,0.7,5.0,Hypertension,1,Low
+56,Male,22.66,Never,4,1.9,8.1,Heart Disease,1,Low
+44,Male,21.33,Current,14,5.6,7.8,Diabetes,7,Moderate
+27,Male,25.18,Former,0,2.9,7.7,Heart Disease,5,High
+43,Male,26.74,Never,0,4.2,7.0,Heart Disease,3,High
+36,Female,30.82,Former,9,3.8,7.6,Heart Disease,1,Low
+56,Other,26.33,Current,9,8.8,9.4,Hypertension,10,Low
+79,Male,28.21,Current,14,9.1,6.6,Hypertension,6,Moderate
+20,Other,28.27,Current,16,4.9,7.2,Hypertension,1,High
+62,Male,38.44,Current,5,3.3,5.4,Hypertension,9,Moderate
+30,Male,15.95,Former,2,1.1,5.7,Diabetes,2,High
+67,Other,21.56,Never,12,9.5,7.1,None,1,Moderate
+45,Female,32.37,Current,15,0.6,8.7,None,7,Low
+79,Male,23.24,Current,7,3.0,6.6,None,6,Moderate
+75,Male,29.43,Former,14,3.0,6.6,Diabetes,6,Moderate
+37,Male,26.15,Former,16,3.2,6.4,None,5,Low
+45,Other,35.53,Current,16,1.6,6.2,Diabetes,4,High
+25,Female,19.43,Never,12,7.8,7.4,Diabetes,4,High
+78,Other,31.11,Never,16,1.2,4.8,Diabetes,3,Low
+58,Other,33.75,Current,5,6.3,8.9,None,10,Moderate
+56,Female,19.93,Former,16,1.2,6.0,Heart Disease,8,Moderate
+18,Other,28.91,Current,15,0.7,8.1,None,7,Moderate
+20,Female,20.17,Current,13,9.1,5.1,None,9,High
+30,Male,25.15,Former,12,1.9,8.0,Hypertension,1,Moderate
+45,Female,23.72,Current,5,8.2,8.0,Diabetes,7,High
+79,Male,12.99,Current,2,5.4,7.6,Heart Disease,10,Moderate
+74,Other,27.12,Current,13,0.8,5.5,Hypertension,4,Low
+77,Other,25.72,Former,13,9.6,7.4,Heart Disease,7,Low
+66,Male,32.4,Never,14,2.5,5.2,Heart Disease,1,High
+42,Other,28.06,Never,7,8.6,6.6,Diabetes,5,High
+73,Female,36.45,Former,14,1.7,8.5,None,3,Low
+50,Male,25.54,Never,12,8.5,8.2,Diabetes,5,Low
+55,Other,24.47,Current,16,0.1,7.0,Diabetes,4,Moderate
+70,Male,24.08,Never,2,5.1,5.5,Hypertension,2,Low
+23,Female,22.8,Current,5,7.7,8.0,Diabetes,4,High
+75,Female,13.96,Never,4,9.3,7.0,None,3,Low
+61,Other,23.9,Former,16,9.1,3.5,Heart Disease,1,High
+62,Female,14.66,Never,1,8.2,8.2,Diabetes,10,High
+49,Male,27.26,Never,14,8.9,7.0,Heart Disease,8,Moderate
+62,Female,18.8,Never,4,2.0,8.8,Diabetes,5,Moderate
+78,Male,20.53,Former,19,2.8,5.4,Heart Disease,4,Moderate
+64,Male,21.65,Never,5,2.9,2.2,Diabetes,10,Moderate
+38,Female,23.98,Former,5,3.8,7.4,Hypertension,5,Low
+33,Other,25.03,Current,17,3.9,7.4,Heart Disease,4,Moderate
+71,Female,30.42,Never,17,5.4,4.5,Diabetes,3,Low
+38,Male,22.11,Former,3,1.6,5.5,Diabetes,5,Moderate
+28,Male,27.4,Former,16,6.9,11.1,Hypertension,4,Moderate
+77,Female,38.65,Never,13,1.7,6.5,Hypertension,1,High
+54,Other,26.89,Current,13,3.1,8.1,Hypertension,3,Low
+53,Other,24.1,Former,12,5.0,6.0,Heart Disease,10,High
+52,Male,21.1,Never,6,8.0,3.9,Heart Disease,10,Moderate
+36,Male,24.03,Current,11,7.4,6.7,Hypertension,8,Low
+37,Other,20.57,Former,14,6.5,6.6,None,7,Moderate
+74,Female,26.34,Former,18,1.6,6.4,None,2,High
+35,Male,25.52,Current,10,5.5,6.8,Diabetes,1,Low
+64,Male,14.19,Current,14,0.9,7.4,None,3,High
+58,Other,24.91,Never,11,3.8,6.8,Diabetes,5,Moderate
+66,Female,30.38,Never,2,4.1,5.1,Heart Disease,10,Moderate
+31,Other,23.0,Former,16,0.4,7.7,Heart Disease,1,Moderate
+32,Female,21.74,Current,2,2.7,4.1,None,3,Low
+48,Female,18.11,Current,18,9.6,3.9,Heart Disease,3,High
+18,Female,15.71,Current,19,9.5,8.1,Hypertension,5,High
+70,Male,29.16,Former,3,3.5,7.8,Hypertension,3,Moderate
+71,Other,24.09,Current,2,0.4,6.9,None,9,High
+71,Other,28.86,Current,15,1.8,4.9,None,1,Low
+20,Female,32.66,Former,11,3.9,5.9,Diabetes,4,Moderate
+33,Male,29.61,Never,7,9.5,6.6,Heart Disease,10,Moderate
+40,Male,22.29,Never,16,1.4,4.6,Diabetes,10,Moderate
+74,Other,25.72,Former,6,7.6,5.9,Diabetes,4,Low
+28,Male,21.93,Current,10,1.1,8.0,Hypertension,1,Moderate
+29,Male,21.46,Former,17,9.8,9.1,Hypertension,2,Moderate
+27,Female,26.71,Never,0,3.8,6.4,Hypertension,1,Moderate
+49,Male,20.84,Never,2,7.8,8.1,Hypertension,6,Moderate
+33,Female,13.95,Former,3,3.4,4.1,Diabetes,3,High
+25,Other,20.56,Former,12,6.3,8.0,Hypertension,7,Moderate
+55,Male,23.47,Never,5,1.9,5.8,Heart Disease,5,Low
+29,Other,32.61,Former,13,1.5,7.5,Hypertension,9,Moderate
+41,Other,22.55,Never,4,9.4,6.6,Hypertension,7,Moderate
+45,Male,27.56,Former,15,9.2,9.0,Hypertension,4,High
+70,Male,24.16,Former,14,8.9,5.7,None,5,Moderate
+25,Other,31.13,Former,14,6.3,7.9,Heart Disease,5,High
+75,Male,30.79,Never,3,8.1,6.6,Heart Disease,5,Low
+45,Female,30.88,Former,7,0.7,6.8,Diabetes,10,High
+53,Female,16.33,Never,15,3.3,6.7,Diabetes,9,Moderate
+43,Male,26.03,Never,15,3.1,5.7,Hypertension,10,Low
+25,Other,28.79,Former,3,6.4,7.0,None,3,Moderate
+75,Male,26.91,Former,12,3.6,6.9,Diabetes,6,High
+77,Male,28.18,Never,12,1.5,7.4,Diabetes,8,Low
+67,Other,25.29,Never,1,6.0,7.1,Hypertension,9,Low
+45,Other,21.28,Current,2,8.1,8.2,Hypertension,7,High
+45,Female,16.51,Never,7,3.8,8.4,Diabetes,3,High
+54,Other,21.77,Current,14,1.3,5.4,Diabetes,1,Low
+58,Female,38.39,Current,10,2.0,8.3,Heart Disease,4,Low
+53,Other,22.57,Current,8,2.4,5.2,None,6,High
+44,Male,15.2,Former,6,3.0,7.9,Heart Disease,3,Moderate
+71,Female,28.66,Former,12,6.4,7.9,Diabetes,1,Low
+34,Female,29.28,Never,1,6.0,4.1,Heart Disease,6,High
+26,Female,31.44,Current,7,7.0,7.1,Heart Disease,1,Moderate
+50,Male,27.35,Former,6,3.6,6.3,Diabetes,9,Low
+70,Male,29.23,Former,11,8.2,5.9,Hypertension,1,Low
+37,Male,34.2,Former,18,2.0,9.0,Diabetes,6,High
+30,Male,21.27,Former,6,4.7,6.0,Hypertension,1,Moderate
+45,Male,20.28,Former,9,8.0,5.8,Diabetes,7,Low
+65,Female,19.53,Current,15,1.8,7.1,Diabetes,3,Moderate
+46,Male,23.67,Current,2,1.1,8.0,Diabetes,6,Moderate
+30,Female,32.17,Current,9,8.8,6.8,None,7,Low
+63,Male,27.64,Current,5,3.4,8.7,Hypertension,1,Moderate
+52,Other,27.44,Never,17,6.8,7.8,None,1,Low
+78,Female,15.9,Current,17,0.3,3.7,Diabetes,5,Moderate
+23,Other,21.53,Former,4,6.9,6.2,Heart Disease,6,Low
+35,Female,15.82,Current,6,3.2,6.2,None,9,High
+68,Other,30.86,Never,1,0.6,7.7,Hypertension,1,Low
+22,Male,32.93,Former,10,6.1,3.1,Diabetes,4,Low
+64,Male,28.9,Current,12,2.4,10.8,None,10,Low
+42,Male,20.07,Current,4,3.9,7.8,Heart Disease,8,Moderate
+19,Female,32.41,Current,5,0.8,7.2,None,10,High
+27,Other,23.73,Former,13,1.5,8.8,Hypertension,9,Moderate
+73,Male,18.93,Former,11,3.0,10.5,None,3,Moderate
+47,Other,20.18,Never,3,0.9,8.3,Heart Disease,2,Low
+67,Other,22.85,Former,5,9.1,8.4,Heart Disease,4,Moderate
+76,Male,25.25,Former,9,0.1,7.2,Hypertension,2,Low
+62,Male,24.19,Current,17,4.8,6.8,Heart Disease,1,High
+22,Other,17.94,Former,14,1.2,6.3,Diabetes,3,Moderate
+72,Male,31.07,Current,7,3.1,5.8,Heart Disease,7,Moderate
+73,Male,24.25,Current,8,9.3,6.0,Diabetes,1,Moderate
+50,Male,21.43,Former,4,1.6,5.0,None,2,Low
+71,Female,30.55,Never,9,9.7,6.9,Diabetes,1,Low
+18,Other,19.08,Never,19,2.1,4.5,Diabetes,8,Moderate
+35,Other,16.86,Former,5,7.4,7.3,None,5,Moderate
+49,Female,31.36,Never,15,5.5,6.9,Heart Disease,8,High
+64,Other,34.46,Current,2,8.8,7.2,Diabetes,3,High
+66,Male,22.69,Current,9,5.5,6.2,Heart Disease,7,High
